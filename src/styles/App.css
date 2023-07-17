@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+body {
+  font-family: 'open sauce one', sans-serif;
+  color: #ffffff;
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.3rem;
+  margin: 20px;
+  margin-bottom: -20px;
+  margin-top: 10rem;
+}
+
+.title {
+  /* font-family: 'Open Sans', sans-serif; */
+  color: white;
+  font-size: 16rem;
+  letter-spacing: -15px;
+  margin: 10px;
+}
+
+#background-color {
+  background: #363636;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
