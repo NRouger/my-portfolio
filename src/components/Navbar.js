@@ -2,16 +2,19 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
+        {/* <div className='nav-title'>
+          <h4>Web developer</h4>
+        </div> */}
         <li>
-          <a href="#about">about</a>
+          <a className="a-nav" href="#about">about</a>
         </li>
         <li>
-          <a href="#projects">projects</a>
+          <a className="a-nav" href="#projects">projects</a>
         </li>
         <li>
-          <a href="#contact">contact</a>
+          <a className="a-nav" href="#contact">contact</a>
         </li>
       </ul>
     </nav>
