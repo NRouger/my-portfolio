@@ -8,6 +8,10 @@ function Navbar() {
           <h4>Web developer</h4>
         </div> */}
         <li>
+          <a className="a-nav" style={{textAlign: "right", justifyContent: "right"}} href="#stack">stack</a>
+        </li>
+
+        <li>
           <a className="a-nav" href="#about">about</a>
         </li>
         <li>
