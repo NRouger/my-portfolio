@@ -25,6 +25,12 @@ body {
   color: #a7a7a7;
 }
 
+.stack-text-tec {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 20rem 0rem 1rem;
+}
+
 #background-color {
   /* background: #363636; */
   background: #1D2226;
@@ -103,5 +109,13 @@ body {
     grid-template-columns: repeat(3, 1fr);
     display: contents;
     overflow: hidden;
+  }
+
+  .stack-text-tec {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 40rem 0rem 1rem;
+    font-size: 2rem;
+
   }
 }

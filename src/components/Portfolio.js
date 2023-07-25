@@ -15,8 +15,6 @@ function Portfolio() {
       <Navbar className="navbar"/>
       <div className='container'>
       <div className="margin"></div>
-
-
       <div className="margin"></div>
 
         <section id="about">
@@ -68,8 +66,6 @@ function Portfolio() {
         </section>
         <div className="margin"></div>
         <div className="margin"></div>
-
-
       </div>
     </div>
   );

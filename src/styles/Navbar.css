@@ -1,8 +1,28 @@
 .navbar {
+  display: flex;
+  justify-content: space-between;
   border-bottom-style: solid;
   border-bottom-color: white;
-  text-align: right;
-  justify-content: right;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-right {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-item-left {
+  margin-right: auto;
+  padding: 10px;
+  text-decoration: none;
+  color: greenyellow;
 }
 
 li {
@@ -11,6 +31,7 @@ li {
   padding: 5px;
   margin-right: 0.8em;
 }
+
 .a-nav {
   color: white;
   text-decoration: none;
@@ -31,6 +52,10 @@ li {
 
   li {
     font-size: 2.5em;
+  }
+
+  .nav-item-left {
+    font-size: 2.5rem;
   }
 }
 

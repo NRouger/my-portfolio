@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import "../styles/App.css";
 import "../styles/Buttons.css";
 import "../styles/Home.css";
-
+import TypingEffect from "./TypingEffect";
 
 function Home() {
   React.useEffect (() => {
@@ -13,14 +13,15 @@ function Home() {
   }, []);
 
   return (
+
     <div className="container">
       <div className="home-grid">
         <div data-aos='zoom-in'>
         <div>
           <p className='subtitle'>Hi. my name is Nicolás Rouger, but call me</p>
-          <h1 data-aos="fade-right" className="title">
-            Nico
-          </h1>
+          <div>
+            <TypingEffect text="Nico" className="title" />
+          </div>
           <p className="" style={{margin: "1rem"}}>I'm a FullStack Web Developer.
           Passionate about the development of a user experience from scratch.</p>
           <div className='line-left'></div>
