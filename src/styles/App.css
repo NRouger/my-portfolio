@@ -97,6 +97,17 @@ body {
   .line-right {
     display: inline-flex;
   }
+
+  .subtitle-mobile {
+    color: #a7a7a7;
+    font-size: 0.65vh;
+    margin: 20px;
+    /* margin-bottom: -20px; */
+  }
+
+  .margin-home {
+    margin: 25vh;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -104,5 +115,16 @@ body {
     grid-template-columns: repeat(3, 1fr);
     display: contents;
     overflow: hidden;
+  }
+
+  .subtitle-mobile {
+    color: #a7a7a7;
+    font-size: 3vh;
+    margin: 20px;
+    /* margin-bottom: -20px; */
+  }
+
+  .margin-home {
+    margin: 0vh;
   }
 }

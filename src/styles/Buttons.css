@@ -35,7 +35,7 @@ button {
 button {
   position: relative;
   border: none;
-  font-size: 18px;
+  /* font-size: 18px; */
   transition: color 0.5s, transform 0.2s, background-color 0.2s;
   outline: none;
   border-radius: 3px;
@@ -95,4 +95,16 @@ button::after, button::before {
   opacity: 1;
   transform-origin: 100px 100px;
   transform: scale(1) translate(-10px, -70px);
+}
+
+@media (min-width: 768px) {
+  button {
+    font-size: 2vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  button {
+    font-size: 2.5vh;
+  }
 }
