@@ -1,16 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <ul>
-        {/* <div className='nav-title'>
-          <h4>Web developer</h4>
-        </div> */}
-        <li>
-          <a className="a-nav" style={{textAlign: "right", justifyContent: "right"}} href="#stack">stack</a>
-        </li>
-
+        <div style={{display: "contents"}}>
+          <Link className="a-nav nav-list nav-item-left" to="/stack">stack</Link>
+        </div>
+      <ul className='nav-list'>
         <li>
           <a className="a-nav" href="#about">about</a>
         </li>

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/App.css';
 import Navbar from './Navbar'
 import '../styles/Navbar.css'
@@ -66,10 +67,13 @@ function Portfolio() {
             <a href="https://github.com/NRouger"><p data-aos="fade-right" className='a-nav text'>NRouger</p></a>
           </div>
         </section>
+        <div>
+          <a href="/portfolio"> {/*data-aos="fade" data-aos-offset="100"*/}
+            <button className="material-bubble" style={{ margin: "4em 0em 0em 1em"}}>Back to top</button>
+          </a>
+        </div>
         <div className="margin"></div>
         <div className="margin"></div>
-
-
       </div>
     </div>
   );

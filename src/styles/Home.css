@@ -3,7 +3,45 @@
   justify-content: center;
   align-items: center; */
   display: flex;
-  padding-top: 10%;
+  /* padding-top: 10%; */
   margin: inherit;
 
+}
+
+
+
+@media (min-width: 768px) {
+  .home-grid {
+    padding-top: 22vh;
+  }
+
+  .text-mobile {
+    margin: 0em 2em 1em 0.5em;
+    font-size: 4em;
+  }
+
+  .title-home {
+    /* font-family: 'Open Sans', sans-serif; */
+    color: white;
+    font-size: 15vh;
+    letter-spacing: -15px;
+    margin: 10px;
+  }
+
+  .title-m {
+    padding: 0em 3em 0 1em;
+    font-size: 1em;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .home-grid {
+    padding-top: 15vh;
+  }
+
+  .text-mobile {
+    margin: 1em 2em 1em 0.5em;
+    font-size: 2em;
+  }
 }

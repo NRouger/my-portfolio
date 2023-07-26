@@ -1,0 +1,23 @@
+/* styles/TypingEffect.css */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #333; /* You can change the color and width as desired */
+  white-space: nowrap;
+  animation: typing 2s steps(40, end), blink-caret 0.7s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333; /* You can change the color as desired */
+  }
+}
