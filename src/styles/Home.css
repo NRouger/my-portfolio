@@ -40,8 +40,13 @@
     padding-top: 15vh;
   }
 
+  .title-home {
+    letter-spacing: -10px;
+    font-size: 10rem;
+  }
+
   .text-mobile {
-    margin: 1em 2em 1em 0.5em;
+    padding: 0em 4em 0em 0em;
     font-size: 2em;
   }
 }
