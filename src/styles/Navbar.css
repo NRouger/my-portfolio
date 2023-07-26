@@ -17,6 +17,10 @@ li {
   text-decoration: none;
 }
 
+a:hover {
+  color: purple;
+}
+
 .nav-item-left {
   margin-right: auto;
   padding: 10px;
