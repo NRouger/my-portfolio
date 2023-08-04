@@ -21,7 +21,7 @@ function Home() {
       <div className="home-grid">
         <div data-aos='zoom-in'>
         <div>
-          <p className='title-m'>Hi. my name is Nicolás Rouger, but call me</p>
+          <p className='title-medium'>Hi. my name is Nicolás Rouger, but call me</p>
           {/* <TypingEffect data-aos="fade-right" className="title">
             Nico
           </TypingEffect> */}

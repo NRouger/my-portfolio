@@ -28,9 +28,11 @@
     margin: 10px;
   }
 
-  .title-m {
+  .title-medium {
     padding: 0em 3em 0 1em;
     font-size: 1em;
+    color: #a7a7a7;
+
   }
 
 }
