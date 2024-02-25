@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/TypingEffect.css';
 
-const TypingEffect = ({ text, className }) => {
+const TypingEffect = ({ text, subtitle, className }) => {
   const [currentText, setCurrentText] = useState('');
   const [isTypingComplete, setIsTypingComplete] = useState(false);
+  const [showSubtitle, setShowSubtitle] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
@@ -12,7 +13,7 @@ const TypingEffect = ({ text, className }) => {
     const typeText = () => {
       if (isMounted) {
         if (index < text.length) {
-          setCurrentText(prevText => prevText + text.charAt(index));
+          setCurrentText(text.substring(0, index + 1)); // Update text directly without appending
           index++;
           setTimeout(typeText, 300); // Adjust typing speed (milliseconds)
         } else {
@@ -32,7 +33,22 @@ const TypingEffect = ({ text, className }) => {
     };
   }, [text, isTypingComplete]);
 
-  return <h1 className={`typewriter ${className}`}>{currentText}</h1>;
+  useEffect(() => {
+    if (isTypingComplete) {
+      setTimeout(() => {
+        setShowSubtitle(true); // Show subtitle after typing effect with a delay
+      }, 200); // Add a delay after typing effect completes
+    }
+  }, [isTypingComplete]);
+
+  return (
+    <div className="typing-effect">
+      <h1 className={`typewriter ${className}`} style={{ wordWrap: 'break-word' }}>
+        {currentText}
+      {showSubtitle && <span className="subtitle-90">{subtitle}</span>}
+      </h1>
+    </div>
+  );
 };
 
 export default TypingEffect;

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
         <div style={{display: "contents"}}>
-          <Link className="a-nav nav-list nav-item-left" to="/stack">stack</Link>
+          <Link className="a-nav nav-list nav-item-left border" to="/stack">stack</Link>
         </div>
       <ul className='nav-list'>
         <li>
