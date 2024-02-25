@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  border-bottom-style: solid;
+  /* border-bottom-style: solid; */
   border-bottom-color: white;
   padding: 10px;
 }

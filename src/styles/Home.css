@@ -9,46 +9,26 @@
 }
 
 
-
+/* Media query for tablets (768px and up) */
 @media (min-width: 768px) {
+  /* Tablet styles */
   .home-grid {
     padding-top: 22vh;
   }
+}
 
-  .text-mobile {
-    margin: 0em 2em 1em 0.5em;
-    font-size: 4em;
-  }
+/* Media query for small laptops/desktops (992px and up) */
+@media (min-width: 992px) {
+  /* Small laptop/desktop styles */
+}
 
-  .title-home {
-    /* font-family: 'Open Sans', sans-serif; */
-    color: white;
-    font-size: 15vh;
-    letter-spacing: -15px;
-    margin: 10px;
-  }
-
-  .title-medium {
-    padding: 0em 3em 0 1em;
-    font-size: 1em;
-    color: #a7a7a7;
-
-  }
+/* Media query for medium laptops/desktops (1200px and up) */
+@media (min-width: 1200px) {
+  /* Medium laptop/desktop styles */
 
 }
 
-@media (min-width: 1024px) {
-  .home-grid {
-    padding-top: 15vh;
-  }
-
-  .title-home {
-    letter-spacing: -10px;
-    font-size: 10rem;
-  }
-
-  .text-mobile {
-    padding: 0em 4em 0em 0em;
-    font-size: 2em;
-  }
+/* Media query for large laptops/desktops (1440px and up) */
+@media (min-width: 1440px) {
+  /* Large laptop/desktop styles */
 }
