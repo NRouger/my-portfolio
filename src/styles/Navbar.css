@@ -26,6 +26,9 @@ a:hover {
   padding: 10px;
   text-decoration: none;
   color: greenyellow;
+  transform: translateX(50%) rotate(); /* Rotate the subtitle by 90 degrees */
+  width: 20%;
+
 }
 
 .nav-list {

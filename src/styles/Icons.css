@@ -1,0 +1,8 @@
+.arrow-bottom{
+  /* transform: translateX(50%) rotate();  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 45%;
+}
