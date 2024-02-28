@@ -37,9 +37,27 @@ const TypingEffect = ({ text, subtitle, className }) => {
     if (isTypingComplete) {
       setTimeout(() => {
         setShowSubtitle(true); // Show subtitle after typing effect with a delay
-      }, 200); // Add a delay after typing effect completes
+      }, 1000); // Add a delay after typing effect completes
     }
   }, [isTypingComplete]);
+
+
+  useEffect(() => {
+    const animatedElement = document.querySelector('.typing-effect')
+
+    if (animatedElement) {
+      console.log(animatedElement);
+      animatedElement.classList.add('animation-triggered');
+
+      setTimeout(() => {
+        animatedElement.classList.remove('animation-triggered')
+      }, 1000);
+    } else {
+      console.log('Subtitle element not found');
+    }
+
+
+  }, []);
 
   return (
     <div className="typing-effect">

@@ -6,13 +6,12 @@
   }
 }
 
-.typewriter {
+/* .typewriter {
   overflow: hidden;
-  border-right: 0.1em solid #333; /* You can change the color and width as desired */
-  /* white-space: nowrap; */
-  animation: typing 1s steps(40, end), blink-caret 1.2s step-end infinite;
+  border-right: 0.1em solid #333;
+  animation: typing 0.1s steps(5, end), blink-caret 1.2s step-end infinite;
   padding-right: 1rem;
-}
+} */
 
 .typing-effect {
   overflow: hidden;
@@ -21,7 +20,7 @@
 
 .subtitle-90 {
   position: absolute;
-  top: 50%;
+  top: 36%;
   transform: translateY(-50%) rotate(90deg); /* Rotate the subtitle by 90 degrees */
   color: #5c5c5c;
   font-size: 2.8rem;
