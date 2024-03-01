@@ -15,7 +15,7 @@ const TypingEffect = ({ text, subtitle, className }) => {
         if (index < text.length) {
           setCurrentText(text.substring(0, index + 1)); // Update text directly without appending
           index++;
-          setTimeout(typeText, 300); // Adjust typing speed (milliseconds)
+          setTimeout(typeText, 170); // Adjust typing speed (milliseconds)
         } else {
           setIsTypingComplete(true); // Mark typing as complete
         }

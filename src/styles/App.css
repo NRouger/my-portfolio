@@ -51,17 +51,12 @@ p {
   padding: 1em;
 }
 
-.line-left {
+.line-section {
   border-bottom-style: solid;
   border-bottom-color: white;
-  width: 35rem;
-  margin-left: 20px;
-}
-
-.line-right {
-  border-bottom-style: solid;
-  border-bottom-color: white;
-  width: 35rem;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
 }
 
 .line-thick {
