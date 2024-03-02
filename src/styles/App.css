@@ -4,7 +4,7 @@
 body {
   /* font-family: 'open sauce one', sans-serif; */
   font-family: 'Manrope', sans-serif;
-  color: #5c5c5c;
+  color: white;
 }
 
 #background-color {
@@ -17,24 +17,46 @@ body {
   color: white;
   font-size: 25vw;
   letter-spacing: -15px;
-  margin: -2rem 0 -1rem -10px;
+  margin: 0rem 0 -1rem -10px;
   line-height: 0.85em;
   justify-content: left;
   padding: 1rem 0rem;
 
 }
 
-.title-m {
-  font-size: xx-large;
+.title-2 {
+  font-size: 15vw;
+  font-weight: 400;
   /* color: #a7a7a7; */
+  letter-spacing: -6px;
+  line-height: 0.85em;
+  color: white;
+}
+
+.title-2-grey {
+  font-size: 15vw;
+  /* color: #a7a7a7; */
+  letter-spacing: -6px;
+  line-height: 0.85em;
   color: #5c5c5c;
 }
 
 .subtitle {
   /* color: #a7a7a7; */
+  font-weight: 400;
   color: #5c5c5c;
-  font-size: 4rem;
+  font-size: 8vw;
   letter-spacing: -3px;
+  line-height: 0.9;
+}
+
+.subtitle-white {
+  /* color: #a7a7a7; */
+  color: white;
+  font-weight: 400;
+  font-size: 6vw;
+  letter-spacing: -3px;
+  line-height: 0.9;
 }
 
 #highlight-white {
@@ -42,7 +64,7 @@ body {
 }
 
 p {
-  color: #5c5c5c;
+  color: white;
   margin: 0px;
   font-size: 3.5vw;
 }
@@ -52,6 +74,7 @@ p {
 }
 
 .line-section {
+  border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: white;
   width: 100%;
@@ -82,6 +105,16 @@ p {
   text-align: right;
   margin: 1rem;
 }
+/*
+.lower-section {
+  height: 300px;
+  display: none;
+} */
+
+.padding-section {
+  padding:10rem 0 10rem 0;
+}
+
 
 /* ############## MEDIA QUERIES ############## */
 

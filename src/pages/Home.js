@@ -14,17 +14,26 @@ import TypingEffect from "../components/TypingEffect";
 function Home() {
   // const textToDisplay = "Nico"
 
+
   const [showIcon, setShowIcon] = useState(false);
 
   useEffect(() => {
     const timeoutId = setTimeout (() => {
       setShowIcon(true);
-    }, 5000);
+    }, 3000);
 
     return () => {
       clearTimeout(timeoutId);
     };
   }, []);
+
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   document.querySelector('.lower-section').style.display = 'none';
+  // });
+
+  // document.addEventListener('load', function() {
+  //   document.querySelector('.lower-section').style.display = 'block';
+  // });
 
   React.useEffect (() => {
     Aos.init({ duration: 1000 });
@@ -37,10 +46,10 @@ function Home() {
         <div className="home-grid">
           <div data-aos='zoom-in'>
             <div class="py-5">
-              <p className='home subtitle'>Hi there, my name is</p>
-              <TypingEffect text="NICO ROUGER" subtitle="last name" className="custom-typing-effect home title" />
+              <h5 className='home subtitle'>Hi there, my name is</h5>
+              <TypingEffect text="NICO ROUGER" subtitle="" className="custom-typing-effect home title" />
 
-              <p className="home subtitle">And I'm a <strong id='highlight-white'>Web Developer</strong></p>
+              <h5 className="home subtitle mt-4">and I'm a <strong id='highlight-white'>Front-end Web Dev</strong></h5>
               <div class="text-box">
                 {/* any text? */}
               </div>
@@ -55,17 +64,76 @@ function Home() {
                   </div>
                 )}
               </div>
-
             </div>
           </div>
         </div>
       </div>
-      <section class="container-fluid">
-        <div class="line-section mt-5" />
-        <div>
 
-        </div>
-      </section>
+      <div className="line-section mt-5" />
+
+      <div className="container-fluid" >
+        <section className=" lower-section padding-section" >
+          <div className="py-5">
+            <h5 className="home title-2">
+              Chasing the sun back and forth from
+              <strong className="title-2-grey"> Barcelona to Amsterdam</strong>
+            </h5>
+          </div>
+        </section>
+
+        <div className="line-section mb-5"/>
+
+        <section className="lower-section padding-section">
+            <div>
+              <div className="text-box">
+                <h1 className="title-2-grey">About my experience</h1>
+                <div>
+                  <div className="my-5 d-inline-flex align-items-center">
+                    <i className="fas fa-circle mx-2"></i>
+                    <h5 className="subtitle-white">concept/o</h5>
+                  </div>
+                  <p className="mb-5">My first full-stack project at the bootcamp, in which we created a prototype of Airbnb. In which with authentications you can create an account and share, save, and book appointments for different concepts around the city! This immersive program facilitated the acquisition of proficiency in HTML, CSS, Bootstrap, JavaScript ES6, SQL, version control with Git, collaboration using GitHub, deployment on Heroku, and in-depth exploration of the Ruby on Rails framework.</p>
+                  <button className="button-tech-purple">HTML</button>
+                  <button className="button-tech-purple">CSS</button>
+                  <button className="button-tech-purple">Bootstrap</button>
+                  <button className="button-tech-purple">JavaScriptESC6</button>
+                  <button className="button-tech-purple">Ruby</button>
+                  <button className="button-tech-purple">Ruby on Rails</button>
+                  <button className="button-tech-purple">PostgreSQL</button>
+                  <button className="button-tech-purple">Git</button>
+                  <button className="button-tech-purple">Heroku</button>
+                </div>
+
+                <h5 className="subtitle pt-5 mx-4">and my recent collaboration at</h5>
+                <div>
+                  <div className="mt-5 d-inline-flex align-items-center">
+                    <i className="fas fa-circle mx-2"></i>
+                    <h5 className="subtitle-white my-5">Eveness</h5>
+                  </div>
+                  <p className="mb-5">Where as a Front-End Web Developer, I am a vital member of a collaborative team dedicated to crafting an immersive user experience. Our current project involves the creation of a dynamic dashboard for both users and coaches within an innovative educational platform. This platform is poised to seamlessly integrate with emerging features and technologies in the evolving Metaverse landscape.</p>
+                  <button className="button-tech-purple">HTML</button>
+                  <button className="button-tech-purple">CSS</button>
+                  <button className="button-tech-purple">JavaScriptESC6</button>
+                  <button className="button-tech-purple">React.js</button>
+                  <button className="button-tech-purple">Atomic Design</button>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <div className="line-section mb-5"/>
+
+        <section>
+          <div className="text-box">
+            <h1 className="title-2-grey mb-5 pb-5">About my experience</h1>
+            <p>I’m a Full stack Web Developer, certified by LeWagon Amsterdam. And now Front End web developer at Evenness. I would describe myself as a hard worker who's spontaneous, social, and has a passion for web development, Marketing and and enthusiasm for UI & UX design.
+
+            I believe that websites are a key element of a customer journey, and one of the biggest brand assets of a brand or organisation. It builds trust, creates consistency and establishes one's brand identity.
+
+            I like to combine functionality and aesthetics. As a fullstack developer, I enjoy working on all aspects of the application lifecycle, from backend architecture and development to frontend design and usability.</p>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

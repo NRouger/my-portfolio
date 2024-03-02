@@ -12,6 +12,20 @@
   }
 }
 
+.button-tech-purple {
+  border: solid;
+  display: inline-block;
+  border-radius: 1px;
+  border-width: 1px;
+  background-color: #3c23dc33;
+  border-color: #3D23DC;
+  color: white;
+  padding: 20px 40px;
+  font-size: 2rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
 /* ##### */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 *, *::after, *::before {
