@@ -19,7 +19,6 @@ body {
 .title {
   /* font-family: 'Open Sans', sans-serif; */
   color: white;
-  font-size: 8rem;
   letter-spacing: -15px;
   margin: 0rem 0 -1rem -10px;
   line-height: 0.85em;
@@ -29,7 +28,6 @@ body {
 }
 
 .title-2 {
-  font-size: 15vw;
   font-weight: 400;
   /* color: #a7a7a7; */
   letter-spacing: -6px;
@@ -38,7 +36,6 @@ body {
 }
 
 .title-2-grey {
-  font-size: 15vw;
   /* color: #a7a7a7; */
   letter-spacing: -6px;
   line-height: 0.85em;
@@ -49,7 +46,6 @@ body {
   /* color: #a7a7a7; */
   font-weight: 400;
   color: #5c5c5c;
-  font-size: 8vw;
   letter-spacing: -3px;
   line-height: 0.9;
 }
@@ -58,7 +54,6 @@ body {
   /* color: #a7a7a7; */
   color: white;
   font-weight: 400;
-  font-size: 6vw;
   letter-spacing: -3px;
   line-height: 0.9;
 }
@@ -70,7 +65,6 @@ body {
 p {
   color: white;
   margin: 0px;
-  font-size: 3.5vw;
 }
 
 .text-grey {
@@ -131,11 +125,40 @@ p {
     grid-template-columns: repeat(2, 1fr);
     display: contents;
     overflow: hidden;
+    margin: 0 0 0 2rem;
+  }
+  /* ########## responsive fonts */
+  .title {
+    font-size: 16rem;
+  }
+
+  .title-2 {
+    font-size: 15vw;
+
+  }
+
+  .title-2-grey {
+    font-size: 15vw;
+
+  }
+
+  .subtitle {
+    font-size: 4rem;
+
+  }
+
+  .subtitle-white {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 3rem;
+    font-weight: 100;
   }
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .container {
     grid-template-columns: repeat(3, 1fr);
     display: contents;
