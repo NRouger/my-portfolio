@@ -7,7 +7,59 @@
   margin: inherit;
 }
 
+.line-s {
+  border-bottom: .2rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
 
+.line-m {
+  border-bottom: .5rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
+
+.line-l {
+  border-bottom: .9rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
+
+.line-xl {
+  border-bottom: 1.4rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
+
+.line-xxl {
+  border-bottom: 1.8rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
+
+.line-xxxl {
+  border-bottom: 3rem;
+  border-bottom-style: solid;
+  border-bottom-color: #5c5c5c;
+  width: 100%;
+  justify-self: center;
+  /* margin-left: 20px; */
+}
 
 
 /* Media query for tablets (768px and up) */

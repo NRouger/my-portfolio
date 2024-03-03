@@ -7,6 +7,10 @@ body {
   color: white;
 }
 
+.contenedor {
+
+}
+
 #background-color {
   /* background: #1D2226; */
   background-color: #000000;
@@ -15,7 +19,7 @@ body {
 .title {
   /* font-family: 'Open Sans', sans-serif; */
   color: white;
-  font-size: 25vw;
+  font-size: 8rem;
   letter-spacing: -15px;
   margin: 0rem 0 -1rem -10px;
   line-height: 0.85em;
@@ -67,6 +71,10 @@ p {
   color: white;
   margin: 0px;
   font-size: 3.5vw;
+}
+
+.text-grey {
+  color: #5c5c5c;
 }
 
 .text-box{
@@ -123,10 +131,6 @@ p {
     grid-template-columns: repeat(2, 1fr);
     display: contents;
     overflow: hidden;
-  }
-
-  .line-right {
-    display: inline-flex;
   }
 
 }

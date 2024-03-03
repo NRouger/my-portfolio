@@ -42,14 +42,14 @@ function Home() {
   return (
     <div>
       <Navbar className="navbar"/>
-      <div className="container-fluid px-4">
+      <div className="container">
         <div className="home-grid">
           <div data-aos='zoom-in'>
             <div class="py-5">
               <h5 className='home subtitle'>Hi there, my name is</h5>
               <TypingEffect text="NICO ROUGER" subtitle="" className="custom-typing-effect home title" />
 
-              <h5 className="home subtitle mt-4">and I'm a <strong id='highlight-white'>Front-end Web Dev</strong></h5>
+              <h5 className="home subtitle mt-4">and I'm a <strong id='highlight-white'>Frontend Web Dev</strong></h5>
               <div class="text-box">
                 {/* any text? */}
               </div>
@@ -124,7 +124,7 @@ function Home() {
         <div className="line-section mb-5"/>
 
         <section>
-          <div className="text-box">
+          <div className="text-box mb-5 pb-5">
             <h1 className="title-2-grey mb-5 pb-5">About my experience</h1>
             <p>I’m a Full stack Web Developer, certified by LeWagon Amsterdam. And now Front End web developer at Evenness. I would describe myself as a hard worker who's spontaneous, social, and has a passion for web development, Marketing and and enthusiasm for UI & UX design.
 
@@ -133,6 +133,30 @@ function Home() {
             I like to combine functionality and aesthetics. As a fullstack developer, I enjoy working on all aspects of the application lifecycle, from backend architecture and development to frontend design and usability.</p>
           </div>
         </section>
+
+        <div className="line-section mb-5"/>
+        <section>
+          <div>
+          <h5 className="subtitle py-5 m-4">Don't be shy, hit me up!</h5>
+          </div>
+          <div className="text-box d-flex" style={{margin: '6rem 0 6rem 0'}}>
+            <p className="mx-3 text-grey">nicorouger@gmail.com</p>
+            <p className="mx-5 text-grey">LinkedIn</p>
+            <p className="mx-5 text-grey">GitHub</p>
+          </div>
+        </section>
+        <div className="line-s mb-5" />
+        <div className="line-m mb-5" />
+        <div className="line-l mb-5" />
+        <div className="line-xl mb-5" />
+        <div className="line-xxl mb-5" />
+        <div className="line-xxxl" />
+
+
+        <div />
+        <div />
+        <div />
+
       </div>
     </div>
   );
